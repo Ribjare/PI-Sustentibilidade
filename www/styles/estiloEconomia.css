@@ -1,0 +1,17 @@
+main{
+    display: grid;
+    grid-template-columns: 10% 80% 10%
+}
+
+#resumo{
+    grid-column: 2/3;
+}
+#Empresas{
+    grid-column: 2/3;
+}
+#Governos{
+    grid-column: 2/3;
+}
+#Vantagens{
+    grid-column: 2/3;
+}
