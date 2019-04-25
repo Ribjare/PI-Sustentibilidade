@@ -1,5 +1,7 @@
 
-
+body{
+    background-color: #efc2a1;
+}
 #resumo{
-    border: black 1px
+    border: black 1px;
 }

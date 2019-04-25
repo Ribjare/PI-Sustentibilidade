@@ -14,13 +14,13 @@ main{
 
 #Beneficios{
     grid-column: 1/2;
-    background-color: limegreen;
+    background-color: rgb(146, 238, 146);
 
 
 }
 #listBenificios{
     grid-column: 3/4;
-    background-color: limegreen;
+    background-color: rgb(146, 238, 146);
 }
 #atitude{
     grid-column: 1/4
