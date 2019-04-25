@@ -1,0 +1,28 @@
+
+body{
+}
+p.intro{
+    margin: 20px;
+    font-size: 25px
+}
+
+main{
+    display: grid;
+    grid-template-columns: 47% 6% 47%;
+
+}
+
+#Beneficios{
+    grid-column: 1/2;
+    background-color: limegreen;
+
+
+}
+#listBenificios{
+    grid-column: 3/4;
+    background-color: limegreen;
+}
+#atitude{
+    grid-column: 1/4
+}
+
