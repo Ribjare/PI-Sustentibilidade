@@ -8,14 +8,7 @@ p.intro{
     font-size: 20px
 }
 
-main{
-    /*display: grid;
-    grid-template-columns: 47% 6% 47%;*/
-
-}
-
 #Beneficios{
-    /*grid-column: 1/2;*/
     background-color: rgb(146, 238, 146);
 }
 
@@ -28,7 +21,6 @@ p.benef_cont{
 }
 
 #listBenificios{
-    /*grid-column: 3/4;*/
     background-color: rgb(146, 238, 146);
 }
 
@@ -36,12 +28,8 @@ h2.list_titulo{
     padding: 0px 10px 0px 20px;
 }
 
-li{
+li.lista_cenas_pontos {
     padding: 0px 20px 10px 0px;
-}
-
-#atitude{
-    /*grid-column: 1/4*/
 }
 
 .grid {

@@ -1,7 +1,22 @@
-
 body{
     background-color: #efc2a1;
 }
 #resumo{
     border: black 1px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 10% 80% 10%
+}
+
+#resumo{
+    grid-column: 2/3;
+}
+
+#Importancia{
+    grid-column: 2/3;
+}
+#Exemplo{
+    grid-column: 2/3;
 }
