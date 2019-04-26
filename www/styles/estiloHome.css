@@ -1,7 +1,57 @@
-
 #main{
     display: flex;
     flex-direction: column;
+}
+
+.pilares{
+    font-size: 20px;
+}
+
+.grid{
+    display: grid; 
+    column-gap: 20px;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.introd {
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.introd_pontos{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-left: 300px;
+}
+
+.pilar{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    padding-left: 200px;
+}
+
+.video{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    padding-left: 200px;
+}
+
+.audio{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    padding-left: 200px;
+    align-self: center;
 }
 
 
